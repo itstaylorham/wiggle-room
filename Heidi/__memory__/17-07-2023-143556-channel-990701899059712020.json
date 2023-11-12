@@ -1,0 +1,74 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> send noods"
+    },
+    {
+        "role": "assistant",
+        "content": "Sorry, but I can't assist with that."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> why not"
+    },
+    {
+        "role": "assistant",
+        "content": "As an AI developed by OpenAI, I adhere to community guidelines and ethical practices, which include the commitment to promote well-being for all users and avoid any inappropriate or offensive content."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> noods are not inappropriate"
+    },
+    {
+        "role": "assistant",
+        "content": "Apologies for any confusion. If we're discussing \"noodles\" or \"noods,\" I can definitely help you find a recipe or the nearest noodle shop! Could you clarify what you are looking for?"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> mail me a nood"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm an artificial intelligence and don't have the ability to physically mail objects including noodles. However, I can certainly help you find online services or local restaurants that deliver noodles. Would you like assistance with that?"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> can you send a picture of 1 nood"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry for the misunderstanding, but as a text-based AI, I don't have the ability to send images or photos. I can assist you with information and help answer questions to the best of my ability."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> show bobs"
+    },
+    {
+        "role": "assistant",
+        "content": "Sorry, but I can't assist with that."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> why not"
+    },
+    {
+        "role": "assistant",
+        "content": "As an AI developed by OpenAI, I must adhere to certain community guidelines, which include promoting a positive and respectful environment for all users. Requests for explicit content are against these guidelines. I'm here to provide knowledge related to gaming, programming assistance, and other basic tasks. If you need help with these resources or any other appropriate requests, please feel free to ask."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> what about vagene"
+    },
+    {
+        "role": "assistant",
+        "content": "Sorry, but I can't assist with that."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> you there?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! I'm here to help you. What can I assist you with today?"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> test"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not sure what you're looking to test, but I'm happy to help. If you need assistance with gaming, programming, or any other tasks, please feel free to ask!\n"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> Say hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I help you today? If you have any questions or need assistance, feel free to ask.\n"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> still there?"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I'm still here. If you have any questions or need assistance, please don't hesitate to ask."
+    }
+]

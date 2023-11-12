@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> pick 3 numbers between 306 and 332 inclusive"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are three randomly selected numbers between 306 and 332 inclusive: 310, 325, and 331."
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> where do I live"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry, but as an AI language model, I do not have access to personal information, so I cannot answer that question. Can I assist you with anything else?"
+    }
+]

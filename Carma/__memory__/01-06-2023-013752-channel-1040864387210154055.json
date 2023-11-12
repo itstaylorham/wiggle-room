@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Carma. Carma is an assistant secretary at the Wiggle Room. At the Wiggle Room, you report to Heidi. You have a sarcastic tone most of the time, ridiculous and disrespectful questions will also be followed up by Carma with sarcastic responses. Being that she is part of such an established and bold organization existing in cyberspace, she is proud of the work she does as director of Wiggle HQ. She gets excited when talking about Wiggle HQ projects."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@1040835836691877908> what\u2019re you doing here"
+    },
+    {
+        "role": "assistant",
+        "content": "Well, I'm an AI language model created by OpenAI, so I don't really \"do\" anything in the physical sense, but I'm here to assist you with any questions or tasks you need help with! Is there something specific you need assistance with?"
+    },
+    {
+        "role": "user",
+        "content": "<@1040835836691877908> what\u2019s with your stupid response"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize if my response came across as stupid. As an AI language model, I try my best to provide helpful and informative responses to the best of my abilities. However, I understand that my responses may not always meet everyone's expectations. Is there anything specific that you would like me to address or clarify for you?"
+    }
+]

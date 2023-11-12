@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> When I re-run the program it adds a duplicate list of MAC IDs with the most recent data. I would like the data to be added to the current list of MAC IDs instead.\n\n# Get list of unique MAC addresses\nmac_addresses = df['MAC'].unique()\n\n# Append the records for each MAC address to the dictionary\nfor mac in mac_addresses:\n    mac_dec = int(mac.replace(':', ''), 16)\n    if mac_dec not in data_dict:\n        data_dict[mac_dec] = []\n    data_dict[mac_dec].extend(df[df['MAC'] == mac].to_dict(orient='records'))\n        \n# Save the updated data to the JSON file\nwith open(file_name, 'w') as f:\n    json.dump(data_dict, f)\n\n# Create a daily folder and save data to a daily JSON file\ntimestamp = datetime.now().strftime(\"%Y-%m-%d\")\ndaily_folder = os.path.join(\"__files__/read_files\", timestamp)\n\nif not os.path.exists(daily_folder):\n    os.makedirs(daily_folder)\n\ndaily_json_file = os.path.join(daily_folder, f'AGT-{timestamp}.json')\n\n# Daily data calculations\nif os.path.exists(daily_json_file):\n    with open(daily_json_file, 'r') as f:\n        daily_data = json.load(f)\nelse:\n    daily_data = []\n\ndaily_data.extend(df.to_dict(orient='records'))\n\nwith open(daily_json_file, 'w') as f:\n    json.dump(daily_data, f)\n\ndone = True"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like your current solution is reading the DataFrame `df` from somewhere and then extracting unique MAC addresses. For each MAC address, you are storing associated records into a dictionary `data_dict`. Then, you write this dictionary back to a JSON file `file_name`. \n\nHowever, you also extend daily_json_file with the entire `df` dictionary, which may cause the duplicate data you're seeing. \n\nHere, is what you might do to avoid duplicates:\n\n1. When adding records to `data_dict`, verify the record doesn't already exist. This can be done by turning your list of dictionaries to a set of tuples or using pandas `drop_duplicates`.\n\n2. When adding records to `daily_data`, also verify the record doesn't already exist. You could use the same strategy as for `data_dict`.\n\nIf, however, you want to update existing entries rather than just avoid duplicates, you would need to ensure that you're keying your dictionaries off some unique identifier (possibly the MAC address) and when adding data, check if the key exists - if it does, update the data; if not, add a new entry.\n\nIf this doesn't address your problem, I'd need some clarification.\n\nPlease provide more detail on the structure of `df`, `data_dict`, and `daily_data`, as well as what you mean by \"duplicate list of MAC IDs\" and where these duplicates are appearing (in `df`, `data_dict`, the JSON file, `daily_data`, or somewhere else?)."
+    }
+]

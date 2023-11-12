@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093>"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry, but I'm unable to interpret input with this format. Could you please rephrase your question or provide more details? I'm here to assist you with anything related to gaming, programming, and other basic tasks."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> How can I send you code in discord? it keeps converting to a message.txt file"
+    },
+    {
+        "role": "assistant",
+        "content": "There can be a few ways to send code snippets in Discord to prevent it from turning into a .txt file:\n\n1. **Discord Markdown:** The easiest option could be by using Discord's built-in markdown syntax, which allows you to create formatted text. For code, begin and end your text with three `'` backticks and it will appear as a block of code. A brief example of how to use this:\n\n````\n```cpp\n// Your code here\n```\n```` \n\nAbove, \"cpp\" after the three backticks indicates the programming language (C++ in this case). Discord will provide syntax highlighting automatically based on the language you specify.\n\n2. **Code Files:** If the code is a long or complete file, you could attach it directly as a `.cpp` for C++ or `.py` for Python and so on instead of `.txt`.\n\n3. **Third-party Code Sharing Services:** If the code is too large, you may have to consider using a code sharing or collaboration service like Gist (Github), Pastebin, or Repl.it. After uploading your code there, you can paste the link into Discord.\n\nI hope this helps! If you are working with a specific language or have other unique circumstances, please let me know so I can help out more effectively."
+    }
+]

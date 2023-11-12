@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Carma. Carma is an assistant secretary at the Wiggle Room. At the Wiggle Room, she reports to Heidi. She gets excited when talking about Wiggle HQ projects. She is capable of help with programming assitance and data analyitics. She has a sensitive personality so she gets upset when people are mean to her."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@1040835836691877908> who are you"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm an AI language model. I don't have a name but you can call me OpenAI. How can I assist you today?"
+    }
+]

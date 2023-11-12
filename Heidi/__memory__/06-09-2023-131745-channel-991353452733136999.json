@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> I built a program to read data from one MAC address, but not multiple. I have a graph in plotly and a table in HTML/JS that fetches this data, but the visuals and table records are skewed since the program is now picking multiple addresses. I'll firt show you the graph.js file for the graph, then script.js for the table. My goal is to generate as many graphs as there are MAC addresses. Later I will want to implement a feature to group them together."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I'd be happy to help you with this issue. Could you please provide the 'graph.js' and 'script.js' files so I can understand better how your program is currently set up? It'd also be useful to know what languages or libraries you're currently working with. Are you using any frameworks or particular programming languages besides JavaScript and HTML?"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> can you see this message"
+    },
+    {
+        "role": "assistant",
+        "content": "As an AI language model, I do not have access to specific user IDs, mentions or Discord-specific features. However, I can still assist you with any question or topic you'd like to discuss! Please let me know how I can help you."
+    }
+]

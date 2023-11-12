@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> can you take pictures yet?"
+    },
+    {
+        "role": "assistant",
+        "content": "As an AI, I do not have the capability to physically take pictures. I am here to answer questions and provide assistance on a variety of topics. If you need help with something else, please let me know!"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> Identify this image"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry, but as a text-based AI, I am unable to identify or analyze images. If you have a question or need help with a topic, please provide a text description, and I will do my best to help you."
+    }
+]

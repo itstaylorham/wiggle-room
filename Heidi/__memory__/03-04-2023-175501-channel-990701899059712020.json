@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> How to make chili pepper chili?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not entirely sure what you mean. Do you mean how to make chili using chili peppers? If so, here's a simple recipe:\n\nIngredients:\n- 1 pound ground beef\n- 1 onion, chopped\n- 1 green bell pepper, chopped\n- 4 cloves garlic, minced\n- 2 cans kidney beans, drained\n- 2 cans diced tomatoes\n- 2 tablespoons chili powder\n- 1 teaspoon ground cumin\n- 1 teaspoon salt\n- 1/4 teaspoon cayenne pepper\n- 1/4 teaspoon black pepper\n\nDirections:\n1. In a large pot or Dutch oven, cook ground beef, onion, bell pepper,"
+    }
+]

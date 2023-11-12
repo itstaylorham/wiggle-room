@@ -1,0 +1,42 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> you there?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! I'm here to help you. What can I assist you with today?"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> test"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not able to recognize mentions like Discord does, but I'm here and happy to help. Let me know what you need assistance with, and I'll do my best to provide you with the information you're looking for."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> Say hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I help you today? If you have any questions or need assistance, feel free to ask."
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> still there?"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I am still here. How can I assist you today? If you have any questions or need help, please feel free to ask."
+    }
+]

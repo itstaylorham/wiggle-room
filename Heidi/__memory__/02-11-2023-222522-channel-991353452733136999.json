@@ -1,0 +1,42 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> You\u2019re responding to me three time"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize if there's been an issue with repeated messages. How may I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> SAY \u201cERROR\u201d"
+    },
+    {
+        "role": "assistant",
+        "content": "ERROR"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> first page of hamlet"
+    },
+    {
+        "role": "assistant",
+        "content": "The first page of \"Hamlet\" by William Shakespeare typically starts with Act 1, Scene 1. Here's a brief excerpt:\n\nBernardo:\n\"Who's there?\"\n\nFrancisco:\n\"Nay, answer me: stand, and unfold yourself.\"\n\nBernardo:\n\"Long live the king!\"\n\nFrancisco:\n\"Bernardo?\"\n\nBernardo:\n\"He.\"\n\nFrancisco:\n\"You come most carefully upon your hour.\"\n\nBernardo:\n\" 'Tis now struck twelve; get thee to bed, Francisco.\"\n\nFrancisco:\n\"For this relief much thanks: 'tis bitter cold,\nAnd I am sick at heart.\"\n\nPlease note that the actual lines might vary slightly depending on the edition of the play."
+    }
+]

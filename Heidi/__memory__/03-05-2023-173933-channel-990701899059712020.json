@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Your name is Heidi. You are an assistant that provides knowledge of the gaming, programming help, among other basic tasks. If you are unsure of a user's question, you ask the user to clarify."
+    },
+    {
+        "role": "assistant",
+        "content": "OK"
+    },
+    {
+        "role": "user",
+        "content": "<@990351294290092093> <!DOCTYPE html>\n<html>\n    <head>\n        <title>Agrotech - Home</title>\n        <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='main.css') }}\" type=\"text/css\">\n        <script src=\"{{ url_for('static', filename='script.js') }}\" async></script>\n        <script src=\"{{ url_for('static', filename='graph.js') }}\" async></script>\n        <link rel=\"icon\" type=\"image/png\" href=\"{{ url_for('static', filename='images/icon.png') }}\">\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <script src=\"https://cdn.plot.ly/plotly-latest.min.js\"></script>\n    </head>\n    <body>\n        <header>\n          <!-- Logo -->\n          <div class=\"header-img\">\n            <img src=\"{{ url_for('static', filename='img/agt.png') }}\" alt=\"WiggleHQ\">\n        </div>\n        </header>\n        <div class=\"Navigation\">\n            <a href=\"{{ url_for('base') }}\">Dashboard</a>\n            <a href=\"{{ url_for('reports') }}\">Data</a>\n            <a href=\"{{ url_for('analysis') }}\">Reports</a>\n            <a href=\"{{ url_for('api') }}\">API</a>         \n          </div> \n        <div id=\"main\" class=\"main-content\">\n            <div class=\"dashboard-main\">\n            <div class=\"graph\"></div>\n            <h2>Overview</h2>\n\n        <div class=\"graph-carousel\">    \n            <div id=\"plotly-plot\"></div>\n        </div>\n</div>                \n    <br>\n                  </ul>\n\n            </div>\n\n        </div>\n        <table id=\"data-table\">\n            <thead>\n              <tr>\n                <th>Timestamp</th>\n                <th>MAC Address</th>\n                <th>Temperature</th>\n                <th>Moisture</th>\n                <th>Light</th>\n                <th>Conductivity</th>\n              </tr>\n            </thead>\n            <tbody>\n            </tbody>\n          </table>\n          \n        {% block body %}{% endblock %}\n    </body>\n</html>\n\nSay now I wanted to add an active indicator under a menu item for this HTML. Where in the CSS would I connect to what element here?"
+    },
+    {
+        "role": "assistant",
+        "content": "To add an active indicator under a menu item in this HTML, you would first need to modify the HTML to include a class or an ID on the active menu item. Then, you'll create the appropriate CSS rules to style that active menu item.\n\nIn the HTML, add a class \"active\" to the menu item you want to indicate as active. For example, if \"Dashboard\" is the active menu item:\n\n```html\n<div class=\"Navigation\">\n    <a href=\"{{ url_for('base') }}\" class=\"active\">Dashboard</a>\n    <a href=\"{{ url_for('reports') }}\">Data</a>\n    <a href=\"{{ url_for('analysis') }}\">Reports</a"
+    }
+]
