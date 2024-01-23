@@ -6,7 +6,7 @@ import openai
 import datetime
 
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "Key-here"
 
 # Set up the Discord bot client
 intents = discord.Intents.default()
@@ -69,7 +69,7 @@ done = True
 client.event(on_message)
 print("Initalizing Carma...")
 # Connect the bot to the Discord API
-client.run("MTA0MDgzNTgzNjY5MTg3NzkwOA.G564nR.7LDy5fVyHVMQ56u3LxoBnzZoI8L77IerbQMT5g")
+client.run("token-here")
 
 from flask import Flask, jsonify
 
