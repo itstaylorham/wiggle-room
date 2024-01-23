@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 const { spawn } = require("child_process");
 const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] });
-const BOT_TOKEN = 'MTA0MDgzNTgzNjY5MTg3NzkwOA.G564nR.7LDy5fVyHVMQ56u3LxoBnzZoI8L77IerbQMT5g'; // Replace with your bot token
+const BOT_TOKEN = ''; // Replace with your bot token
 const CHANNEL_ID = '1097384129982648332'; // Replace with your channel ID
 const { detectTrend, /*manipulateData*/} = require('./trends.js');
 
@@ -93,7 +93,7 @@ async function sendSensorData() {
     });
 
       // Download the image from the server
-      const imageResponse = await axios.get('http://192.168.68.114:3000/api/graph_data', { responseType: 'arraybuffer' });
+      const imageResponse = await axios.get('http://:3000/api/graph_data', { responseType: 'arraybuffer' });
       const imageBuffer = Buffer.from(imageResponse.data, 'binary');
   
       // Get the current date and time
