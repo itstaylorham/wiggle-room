@@ -10,7 +10,7 @@ intents.guilds = True
 # Create a bot instance
 bot = commands.Bot(command_prefix='/', intents=intents)
 
-TOKEN = "MTExMzIzNTA1Njg2MTkyNTQxNg.Gw6pEt.I7X1g873Lq_JJ27VjBvgWyiXL8QyIpNL4hHEbA"  # Make sure to replace this with your actual token
+TOKEN = "discord bot token"  # Make sure to replace this with your actual token
 CLIENT_ID = "1113235056861925416"  # Replace with your client ID
 
 # Define the bot's commands using a decorator
