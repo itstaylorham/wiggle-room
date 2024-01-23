@@ -6,7 +6,7 @@ import openai
 import datetime
 
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = ""
 
 # Set up the Discord bot client
 intents = discord.Intents.default()
@@ -78,6 +78,6 @@ done = True
 client.event(on_message)
 print("Initalizing Heidi...")
 # Connect the bot to the Discord API
-client.run("OTkwMzUxMjk0MjkwMDkyMDkz.GddPD4.NLOQNbHHsXOZ-fmdx7mZOrm8bcvralHwaKrbXE")
+client.run("Bot-token")
 print("Completed!")
 
